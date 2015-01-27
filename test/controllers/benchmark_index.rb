@@ -1,6 +1,9 @@
 require 'test_helper'
 
-# ruby -rstackprof -I lib:test `thisfile'
+# How to run:
+# $ bundle
+# $ gem install stackprof
+# $ ruby -rstackprof -I lib:test `thisfile'
 class DocumentsControllerTest < ActionController::TestCase
   test "index" do
     get :index
